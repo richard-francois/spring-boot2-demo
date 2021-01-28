@@ -1,6 +1,6 @@
-#Spring Boot 2.4.2 - DEMO Project
+# Spring Boot 2.4.2 - DEMO Project
 
-###This project to show use of Spring Boot 2.x new features.
+### This project to show use of Spring Boot 2.x new features.
 
 Frameworks used :
 - Spring Boot
@@ -28,8 +28,8 @@ with following dependencies:
 JPA features + ThymeLead features created by following : https://www.youtube.com/watch?v=bcV0WtOoY54&list=PLGRDMO4rOGcM7B0TsM_-2efML7LAOriWV&index=2
 
 
-#Pre-requisites
-##MySQL
+# Pre-requisites
+## MySQL
 - MySQL 8.0+ , in docker container
 - User root:root
 - initialisation instructions on a fresh empty Database  
@@ -40,12 +40,12 @@ JPA features + ThymeLead features created by following : https://www.youtube.com
 
 **--> see resources/data.csv**
 
-#Build and run
+# Build and run
 - `mvn clean install`
 
 - `mvn spring-boot:run` **(!) dot not run from IntelliJ (!)**
 
-#Connecting to application
+# Connecting to application
 
 - http://localhost:8080
     - Login : user 
